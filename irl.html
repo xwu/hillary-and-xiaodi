@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hillary and Xiaodi &middot; August 8, 2020</title>
+        <style>
+@font-face {
+    font-family: 'Playfair Display';
+    font-weight: 400 900;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('fonts/PlayfairDisplay-VariableFont_wght.woff2') format('woff2'),
+         url('fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-weight: 400 900;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('fonts/PlayfairDisplay-Italic-VariableFont_wght.woff2') format('woff2'),
+         url('fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Source Sans Variable';
+    font-weight: 200 900;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('fonts/SourceSansVariable-Roman.ttf.woff2') format('woff2'),
+         url('fonts/SourceSansVariable-Roman.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Source Sans Variable';
+    font-weight: 200 900;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('fonts/SourceSansVariable-Italic.ttf.woff2') format('woff2'),
+         url('fonts/SourceSansVariable-Italic.ttf') format('truetype');
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    min-height: 100%;
+    border: 1em solid mistyrose;
+    font-size: 20px;
+}
+
+body {
+    width: 30rem;
+    max-width: calc(100% - 2em);
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: 'Source Sans Variable', sans-serif;
+}
+
+section {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+section:first-child, #rsvp {
+    font-size: 1.25rem;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+.name {
+    display: block;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.ampersand {
+    font-family: 'Playfair Display', serif;
+}
+
+section:first-child .ampersand {
+    display: block;
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+#invite {
+    display: block;
+    margin: 1rem auto;
+}
+
+.date-time, .location {
+    display: block;
+    font-feature-settings: "smcp", "c2sc";
+    letter-spacing: 0.075rem;
+}
+
+#traditional {
+    margin: 2rem 0;
+    border-top: 2px solid mistyrose;
+    border-bottom: 2px solid mistyrose;
+    padding: calc(0.5rem - 2px);
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+}
+
+.label, .preposition {
+    font-style: italic;
+    font-size: 95%;
+    font-family: 'Playfair Display', serif;
+    font-feature-settings: normal;
+}
+
+#rsvp a[href] {
+    display: block;
+    border: 2px solid #c80815;
+    border-radius: 5rem;
+    padding: calc(0.5rem - 2px) calc(2rem - 2px);
+    background: white;
+    color: #c80815;
+    font-feature-settings: "smcp", "c2sc";
+    letter-spacing: 0.075rem;
+    text-decoration: none;
+
+    transition: background 0.2s ease-out, font-size 0.2s ease-out;
+}
+
+#rsvp a:hover {
+    background: rgba(255, 228, 225, 0.2);
+    font-size: 101.25%;
+}
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="Hillary and Xiaodi" />
+        <meta property="og:image" content="https://hillaryandxiaodi.com/preview.png" />
+    </head>
+    <body>
+        <section>
+            <p>
+                <span class="name">Hillary Kate Alleman</span>
+                <span class="ampersand">&amp;</span>
+                <span class="name">Xiaodi Wu</span>
+                <span id="invite">invite you to join a celebration of their marriage,</span>
+                <span class="date-time">Saturday, August&nbsp;8,&nbsp;2020</span>
+                <span class="date-time">at 7&nbsp;PM (Eastern&nbsp;Time),</span>
+                <span class="location">351 W 54th St and streaming on Zoom.</span>
+            </p>
+            <p id="traditional">
+                Traditional celebration to follow in 2021 as circumstances
+                permit.
+            </p>
+        </section>
+        <section>
+            <p>
+                <span class="label">Attire:</span> Dressy casual + mask.<br>
+                <span class="label">Registry:</span> Your well wishes will be our gift.
+            </p>
+        </section>
+        <section id="rsvp">
+            <p>
+                <a href="https://www.addevent.com/event/aX5004681" title="" target="_blank">RSVP</a>
+            </p>
+        </section>
+    </body>
+</html>
