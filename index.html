@@ -99,34 +99,37 @@ section:first-child .ampersand {
 
 #traditional {
     margin: 2rem 0;
-    border-top: 3px double mistyrose;
-    border-bottom: 3px double mistyrose;
-    padding: calc(0.5rem - 3px);
+    border-top: 2px solid mistyrose;
+    border-bottom: 2px solid mistyrose;
+    padding: calc(0.5rem - 2px);
     font-style: italic;
     font-family: 'Playfair Display', serif;
 }
 
+.label, .preposition {
+    font-style: italic;
+    font-size: 95%;
+    font-family: 'Playfair Display', serif;
+    font-feature-settings: initial;
+}
+
 #rsvp a[href] {
-    padding: 0.5rem 2rem;
-    border: 3px double #c80815;
-    border-radius: 2.5rem;
+    display: block;
+    border: 2px solid #c80815;
+    border-radius: 5rem;
+    padding: calc(0.5rem - 2px) calc(2rem - 2px);
     background: white;
     color: #c80815;
     font-feature-settings: "smcp", "c2sc";
     letter-spacing: 0.075rem;
     text-decoration: none;
 
-    transition: background 0.25s ease-out, font-size 0.25s ease-out;
+    transition: background 0.2s ease-out, font-size 0.2s ease-out;
 }
 
 #rsvp a:hover {
     background: rgba(255, 228, 225, 0.2);
-    font-size: 102.5%;
-}
-
-.label {
-    font-style: italic;
-    font-family: 'Playfair Display', serif;
+    font-size: 101.25%;
 }
         </style>
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -138,8 +141,8 @@ section:first-child .ampersand {
                 <span class="ampersand">&amp;</span>
                 <span class="name">Xiaodi Wu</span>
                 <span id="invite">invite you to join a virtual celebration of their marriage,</span>
-                <span class="date-time">Saturday, August 8, 2020</span>
-                <span class="date-time">at 7&nbsp;PM (Eastern Time),</span>
+                <span class="date-time">Saturday, August&nbsp;8,&nbsp;2020</span>
+                <span class="date-time">at 7&nbsp;PM (Eastern&nbsp;Time),</span>
                 <span class="location">streaming on Zoom.</span>
             </p>
             <p id="traditional">
@@ -155,7 +158,7 @@ section:first-child .ampersand {
         </section>
         <section id="rsvp">
             <p>
-                <a href="https://www.addevent.com/event/Dx5003686" title="" target="_blank">RSVP for Zoom link</a>
+                <a href="https://www.addevent.com/event/Dx5003686" title="" target="_blank">RSVP <span class="preposition">for</span> Zoom&nbsp;link</a>
             </p>
         </section>
     </body>
