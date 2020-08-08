@@ -66,8 +66,41 @@ section:first-child, #rsvp {
     font-size: 1.25rem;
 }
 
-p {
+h1 {
+    margin: 2rem 0;
+    border-top: 2px solid mistyrose;
+    border-bottom: 2px solid mistyrose;
+    padding: calc(0.5rem - 2px);
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+p, li {
     margin: 1rem 0;
+    padding: 0;
+}
+
+dt {
+    margin: 1rem 0 0 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-feature-settings: "smcp", "c2sc";
+    line-height: 2rem;
+    letter-spacing: 0.075rem;
+}
+
+dd {
+    margin: 0 0 1rem 0;
+    padding: 0;
+}
+
+ul, dl {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .name {
@@ -113,6 +146,10 @@ section:first-child .ampersand {
     font-feature-settings: normal;
 }
 
+.preposition {
+    padding: 0 0.125em;
+}
+
 #rsvp a[href] {
     display: block;
     border: 2px solid #c80815;
@@ -142,26 +179,57 @@ section:first-child .ampersand {
                 <span class="name">Hillary Kate Alleman</span>
                 <span class="ampersand">&amp;</span>
                 <span class="name">Xiaodi Wu</span>
-                <span id="invite">invite you to join a celebration of their marriage,</span>
                 <span class="date-time">Saturday, August&nbsp;8,&nbsp;2020</span>
-                <span class="date-time">at 7&nbsp;PM (Eastern&nbsp;Time),</span>
-                <span class="location">351 W 54th St and streaming on Zoom.</span>
-            </p>
-            <p id="traditional">
-                Traditional celebration to follow in 2021 as circumstances
-                permit.
+                <span class="location">Streaming from New York</span>
             </p>
         </section>
         <section>
-            <p>
-                <span class="label">Attire:</span> Dressy casual + mask.<br>
-                <span class="label">Registry:</span> Your well wishes will be our gift.
-            </p>
+            <h1>Program</h1>
+            <ul>
+                <li>Prelude</li>
+                <li>Bride&rsquo;s Entrance</li>
+                <li>
+                    Welcome<br>
+                    <span class="description">(Shyam Sundaresh)</span>
+                </li>
+                <li>Exchange <span class="preposition">of</span> Vows</li>
+                <li>Exchange <span class="preposition">of</span> Rings</li>
+                <li>
+                    Interlude<br>
+                    <span class="description">(&ldquo;At Last,&rdquo; Etta James &mdash; Nat Hagen</span>)</li>
+                <li>Toasts &nbsp;&middot;&nbsp; Cake &nbsp;&middot;&nbsp; Thanks</li>
+            </ul>
         </section>
-        <section id="rsvp">
-            <p>
-                <a href="program.html" title="" target="_blank">Program</a>
-            </p>
+        <section>
+            <h1>People</h1>
+            <dl>
+                <dt>Celebrant: Shyam Sundaresh</dt>
+                <dd>
+                    Shyam and Xiaodi met as medicine residents at Cornell.
+                </dd>
+                <dt>Parents of the Bride: David &amp; Linda Alleman</dt>
+                <dd>
+                    David and Linda will be joining remotely from Utah.
+                </dd>
+                <dt>Parents of the Groom: Chiping Wu &amp; Yanqing Tian</dt>
+                <dd>
+                    Chiping and Yanqing will be joining remotely from Toronto.
+                </dd>
+                <dt>Maid of Honor: Megan Alleman</dt>
+                <dd>
+                    Megan, Hillary&rsquo;s sister, will be joining remotely from Utah.
+                </dd>
+                <dt>Flower Girls: Georgina, Ruthie, Nell, Lillian</dt>
+                <dd>
+                    Georgina is the daughter of Hillary&rsquo;s close friend Alexandra.<br>
+                    Hillary&rsquo;s nieces Ruthie, Nell, and Lillian will be joining remotely from Utah.
+                </dd>
+                <dt>Remarks: Amy Alleman, Nick Commins</dt>
+                <dd>
+                    Amy, Hillary&rsquo;s sister, will be joining remotely from Boston.<br>
+                    Nick was Xiaodi&rsquo;s college roommate from 2007 to 2009.
+                </dd>
+            </dl>
         </section>
     </body>
 </html>
